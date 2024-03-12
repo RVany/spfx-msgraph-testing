@@ -11,6 +11,9 @@ import { IReadonlyTheme } from '@microsoft/sp-component-base';
 import * as strings from 'SpfxMsgraphRestingWebPartStrings';
 import SpfxMsgraphResting from './components/SpfxMsgraphResting';
 import { ISpfxMsgraphRestingProps } from './components/ISpfxMsgraphRestingProps';
+import {MSGraphClient} from '@microsoft/sp-http';
+import * as MicrosoftGraph from "@microsoft/microsoft-graph-types";
+
 
 export interface ISpfxMsgraphRestingWebPartProps {
   description: string;
