@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.15.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "spfx-msgraph-testing",
+    "libraryId": "f00e1914-b0fd-41cd-97be-7a442defb06c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-msgraph-testing",
+    "solutionShortDescription": "spfx-msgraph-testing description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

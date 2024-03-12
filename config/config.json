@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-msgraph-resting-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxMsgraphResting/SpfxMsgraphRestingWebPart.js",
+          "manifest": "./src/webparts/spfxMsgraphResting/SpfxMsgraphRestingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxMsgraphRestingWebPartStrings": "lib/webparts/spfxMsgraphResting/loc/{locale}.js"
+  }
+}

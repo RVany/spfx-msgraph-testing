@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-msgraph-testing-client-side-solution",
+    "id": "f00e1914-b0fd-41cd-97be-7a442defb06c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-msgraph-testing description"
+      },
+      "longDescription": {
+        "default": "spfx-msgraph-testing description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-msgraph-testing Feature",
+        "description": "The feature that activates elements of the spfx-msgraph-testing solution.",
+        "id": "95c41f01-2f70-4726-b84d-cb9e2dad6133",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-msgraph-testing.sppkg"
+  }
+}
