@@ -3,5 +3,5 @@ export interface ISpfxMsgraphRestingProps {
   isDarkTheme: boolean;
   environmentMessage: string;
   hasTeamsContext: boolean;
-  userDisplayName: string;
+  userDisplayName: string|any;
 }
